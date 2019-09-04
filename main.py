@@ -70,6 +70,7 @@ def orderOperations(a1,a2,a3):
     i.e., changes normal order or operations 
     '''
     toReturn = 0
+    toReturn = (a1 + a2) * a3
     # add your code here
     return toReturn
 
