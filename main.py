@@ -169,6 +169,7 @@ def randomNumber():
     Returns a random number between 1000 and 9999
     '''
     toReturn = 0
+    toReturn = 
     # add your code here
     return toReturn
 
