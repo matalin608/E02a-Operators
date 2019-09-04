@@ -133,6 +133,7 @@ def substr(s,a1,a2):
     Returns a substring of s (from position a1 to a2)
     '''
     toReturn = ''
+    toReturn = str(s[a1:a2])
     # add your code here
     return toReturn
 
