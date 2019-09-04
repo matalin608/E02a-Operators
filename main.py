@@ -142,6 +142,7 @@ def reverseStr(s):
     Returns a string which is a reversed version of s
     '''
     toReturn = ''
+    toReturn = str(reversed(s))
     # add your code here
     return toReturn
 
@@ -150,6 +151,7 @@ def isIn(l,e):
     Returns true if element e is in list l
     '''
     toReturn = ''
+    toReturn = bool(e in l)
     # add your code here
     return toReturn
 
