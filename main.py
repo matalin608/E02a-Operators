@@ -75,6 +75,7 @@ def orderOperations(a1,a2,a3):
     return toReturn
 
 def whichType(t):
+    #INCOMPLETE
     '''
     Returns the python data type of t
     '''
@@ -119,11 +120,12 @@ def concat(s1,s2):
     return toReturn
 
 def whichChar(s,a):
+    #INCOMPLETE
     '''
     Returns the character at position a of string s
     '''
     toReturn = ''
-    to
+    toReturn = s([:a])
     # add your code here
     return toReturn
 
@@ -132,6 +134,7 @@ def substr(s,a1,a2):
     Returns a substring of s (from position a1 to a2)
     '''
     toReturn = ''
+    toReturn = 
     # add your code here
     return toReturn
 
