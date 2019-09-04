@@ -79,7 +79,6 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    toReturn = str
     # add your code here
     return toReturn
 
@@ -88,7 +87,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    toReturn = int
+    toReturn = int(i)
     # add your code here
     return toReturn
 
@@ -97,6 +96,7 @@ def convertFloat(f):
     Converts f to a float
     '''
     toReturn = 0.0
+    toReturn = float(f)
     # add your code here
     return toReturn
 
@@ -105,6 +105,7 @@ def convertStr(s):
     Converts s to a string
     '''
     toReturn = ''
+    toReturn = str(s)
     # add your code here
     return toReturn
 
@@ -113,6 +114,7 @@ def concat(s1,s2):
     Concatenates (string) s2 to the end of s1
     '''
     toReturn = ''
+    toReturn = s1 + s2
     # add your code here
     return toReturn
 
@@ -121,6 +123,7 @@ def whichChar(s,a):
     Returns the character at position a of string s
     '''
     toReturn = ''
+    to
     # add your code here
     return toReturn
 
