@@ -14,6 +14,7 @@ def sub(a1,a2):
     Subtracts a2 from a1
     '''
     toReturn = 0
+    toReturn = a1 - a2
     # add your code here
     return toReturn
 
@@ -22,6 +23,7 @@ def mult(a1,a2):
     Multiplies a1 by a2
     '''
     toReturn = 0
+    toReturn = a1 * a2
     # add your code here
     return toReturn
 
@@ -30,6 +32,7 @@ def div(a1,a2):
     Divides a1 by a2
     '''
     toReturn = 0
+    toReturn = a1/a2
     # add your code here
     return toReturn
 
