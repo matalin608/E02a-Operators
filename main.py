@@ -41,6 +41,7 @@ def floorDiv(a1,a2):
     Divides a1 by a2 with remainder rounded down
     '''
     toReturn = 0
+    toReturn = a1//a2
     # add your code here
     return toReturn
 
@@ -50,6 +51,7 @@ def mod(a1,a2):
     e.g., mod(5,3) = 2, mod(15,5) = 0, mod(15,4) = 3
     '''
     toReturn = 0
+    toReturn = a1 % a2
     # add your code here
     return toReturn
 
@@ -58,6 +60,7 @@ def exp(a1,a2):
     Returns the a1 to the a2 power (exponent)
     '''
     toReturn = 0
+    toReturn = a1 ** a2
     # add your code here
     return toReturn
 
