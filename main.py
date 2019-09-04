@@ -79,6 +79,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
+    toReturn = str
     # add your code here
     return toReturn
 
@@ -87,6 +88,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
+    toReturn = int
     # add your code here
     return toReturn
 
