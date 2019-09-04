@@ -160,6 +160,7 @@ def randomElement(l):
     Returns a random element of list l
     '''
     toReturn = ''
+    toReturn = str(random.choice(l))
     # add your code here
     return toReturn
 
