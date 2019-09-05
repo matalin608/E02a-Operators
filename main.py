@@ -187,8 +187,8 @@ def shuffleList(l):
     Returns a list which has all the elements of l in a random order
     '''
     toReturn = []
-    # add your code here
-    return toReturn
+    toReturn = random.shuffle(l)
+    return l
 
 def listUntil(a):
     '''
