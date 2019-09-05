@@ -15,7 +15,6 @@ def sub(a1,a2):
     '''
     toReturn = 0
     toReturn = a1 - a2
-    # add your code here
     return toReturn
 
 def mult(a1,a2):
@@ -24,7 +23,6 @@ def mult(a1,a2):
     '''
     toReturn = 0
     toReturn = a1 * a2
-    # add your code here
     return toReturn
 
 def div(a1,a2):
@@ -33,7 +31,6 @@ def div(a1,a2):
     '''
     toReturn = 0
     toReturn = a1/a2
-    # add your code here
     return toReturn
 
 def floorDiv(a1,a2):
@@ -42,7 +39,6 @@ def floorDiv(a1,a2):
     '''
     toReturn = 0
     toReturn = a1//a2
-    # add your code here
     return toReturn
 
 def mod(a1,a2):
@@ -52,7 +48,6 @@ def mod(a1,a2):
     '''
     toReturn = 0
     toReturn = a1 % a2
-    # add your code here
     return toReturn
 
 def exp(a1,a2):
@@ -61,7 +56,6 @@ def exp(a1,a2):
     '''
     toReturn = 0
     toReturn = a1 ** a2
-    # add your code here
     return toReturn
 
 def orderOperations(a1,a2,a3):
@@ -71,7 +65,6 @@ def orderOperations(a1,a2,a3):
     '''
     toReturn = 0
     toReturn = (a1 + a2) * a3
-    # add your code here
     return toReturn
 
 def whichType(t):
@@ -80,7 +73,6 @@ def whichType(t):
     '''
     toReturn = ''
     toReturn = type(t)
-    # add your code here
     return toReturn
 
 def convertInt(i):
@@ -89,7 +81,6 @@ def convertInt(i):
     '''
     toReturn = 0
     toReturn = int(i)
-    # add your code here
     return toReturn
 
 def convertFloat(f):
@@ -98,7 +89,6 @@ def convertFloat(f):
     '''
     toReturn = 0.0
     toReturn = float(f)
-    # add your code here
     return toReturn
 
 def convertStr(s):
@@ -107,7 +97,6 @@ def convertStr(s):
     '''
     toReturn = ''
     toReturn = str(s)
-    # add your code here
     return toReturn
 
 def concat(s1,s2):
@@ -116,7 +105,6 @@ def concat(s1,s2):
     '''
     toReturn = ''
     toReturn = s1 + s2
-    # add your code here
     return toReturn
 
 def whichChar(s,a):
@@ -125,7 +113,6 @@ def whichChar(s,a):
     '''
     toReturn = ''
     toReturn = str(a)
-    # add your code here
     return toReturn
 
 def substr(s,a1,a2):
@@ -134,7 +121,6 @@ def substr(s,a1,a2):
     '''
     toReturn = ''
     toReturn = str(s[a1:a2])
-    # add your code here
     return toReturn
 
 def reverseStr(s):
@@ -143,7 +129,6 @@ def reverseStr(s):
     '''
     toReturn = ''
     toReturn = s[::-1]
-    # add your code here
     return toReturn
 
 def isIn(l,e):
@@ -160,7 +145,6 @@ def randomElement(l):
     '''
     toReturn = ''
     toReturn = str(random.choice(l))
-    # add your code here
     return toReturn
 
 def randomNumber():
@@ -169,7 +153,6 @@ def randomNumber():
     '''
     toReturn = 0
     toReturn = str(random.randint(1000,9999))
-    # add your code here
     return toReturn
 
 def reverseList(l):
@@ -178,7 +161,6 @@ def reverseList(l):
     '''
     toReturn = []
     toReturn = l[::-1]
-    # add your code here
     return toReturn
 
 def shuffleList(l):
@@ -195,7 +177,6 @@ def listUntil(a):
     '''
     toReturn = []
     toReturn = list(range(a))
-    # add your code here
     return toReturn
 
 
