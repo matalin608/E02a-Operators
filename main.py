@@ -138,7 +138,6 @@ def substr(s,a1,a2):
     return toReturn
 
 def reverseStr(s):
-    #incomplete
     '''
     Returns a string which is a reversed version of s
     '''
