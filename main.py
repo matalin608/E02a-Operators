@@ -143,7 +143,7 @@ def reverseStr(s):
     Returns a string which is a reversed version of s
     '''
     toReturn = ''
-    toReturn = str(reversed(s))
+    toReturn = s[::-1]
     # add your code here
     return toReturn
 
