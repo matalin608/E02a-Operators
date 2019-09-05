@@ -169,7 +169,7 @@ def randomNumber():
     Returns a random number between 1000 and 9999
     '''
     toReturn = 0
-    toReturn = 
+    toReturn = str(random.randint(1000,9999))
     # add your code here
     return toReturn
 
@@ -178,6 +178,7 @@ def reverseList(l):
     Returns a list which is a mirror of l (each element is present in reverse order from l)
     '''
     toReturn = []
+    toReturn = l[::-1]
     # add your code here
     return toReturn
 
