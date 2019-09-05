@@ -195,6 +195,7 @@ def listUntil(a):
     Returns a list contains numbers from 0 to a
     '''
     toReturn = []
+    toReturn = list(range(a))
     # add your code here
     return toReturn
 
