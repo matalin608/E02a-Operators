@@ -75,11 +75,11 @@ def orderOperations(a1,a2,a3):
     return toReturn
 
 def whichType(t):
-    #INCOMPLETE
     '''
     Returns the python data type of t
     '''
     toReturn = ''
+    toReturn = type(t)
     # add your code here
     return toReturn
 
@@ -138,6 +138,7 @@ def substr(s,a1,a2):
     return toReturn
 
 def reverseStr(s):
+    #incomplete
     '''
     Returns a string which is a reversed version of s
     '''
@@ -152,7 +153,6 @@ def isIn(l,e):
     '''
     toReturn = ''
     toReturn = bool(e in l)
-    # add your code here
     return toReturn
 
 def randomElement(l):
